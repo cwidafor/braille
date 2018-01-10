@@ -1,0 +1,26 @@
+.board{
+	background-color: black;
+	overflow: hidden;
+	text-wrap: wrap;
+	word-wrap: break-word;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding-top: 4rem;
+
+	&-item{ 
+		width: 2rem;
+		padding: 4rem 3rem;
+		position: relative;
+
+	}
+
+	p{
+		color: white;
+		font-size: 4rem;
+		font-weight: bold;
+		font-family: 'helvetica';
+		line-height: 1;
+	}
+}

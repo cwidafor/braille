@@ -1,0 +1,6 @@
+<div class="board">
+	<div class="board-item" v-for="letter in data">
+		<braille :data="letter"></braille>
+		<p>{{ letter }}</p>
+	</div>
+</div>

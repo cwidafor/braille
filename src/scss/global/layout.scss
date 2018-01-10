@@ -1,0 +1,40 @@
+﻿div,html,body,p,h1,h2,h3,h4,h5,input{
+	padding: 0;
+	margin: 0;
+}
+
+div{
+	display: block;
+}
+
+p{
+	color: red;
+}
+
+input{
+	-webkit-appearance: none;
+	float: left;
+}
+
+#hiddenInput{
+	position: fixed;
+	top: -100%;
+}
+.app{
+	padding: 1rem;
+	height: 100vh;
+	width: 100%;
+	min-height: 100vh;
+	background-color: black;
+}
+.nav{
+	display: flex;
+
+	.logo{
+		width: 12rem;
+		margin-right: auto;
+		img{
+			width: 100%;
+		}
+	}
+}

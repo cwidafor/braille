@@ -1,0 +1,37 @@
+.braille{
+	position: absolute;
+	bottom: 70%;
+	left: calc(50% - 1.75rem);
+	background-color: white;
+	border-radius: 0.25rem;
+	opacity: 0;
+	animation: slideIn 0.4s;
+	animation-fill-mode: forwards;
+	.row{
+		display: flex;
+	}
+	.column{
+		width: 0.75rem;
+		height: 0.75rem;
+		border-radius: 50%;
+		background-color: white;
+		border: 2px solid black;
+		margin: 0.5rem;
+		&.filled{
+			background-color: black;
+		}
+	}
+}
+
+
+@keyframes slideIn{
+  0% {
+    opacity: 0;
+    transform: translateY(1rem);
+
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

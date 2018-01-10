@@ -1,0 +1,5 @@
+<div class="braille" v-if="code != ''">
+	<div class="row" v-for="row in 3">
+		<div class="column" v-for="column in 2" :class="fillCheck(row, column)"></div>
+	</div>
+</div>
